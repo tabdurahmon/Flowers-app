@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      screens: path.resolve(__dirname, "./src/screens"),
+      components: "src/components",
     },
   },
 });
