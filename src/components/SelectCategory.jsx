@@ -9,7 +9,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useState } from "react";
-import { Value } from "@radix-ui/react-select";
 
 export default function SelectCategory() {
   const flowers = useAppStore((state) => state.flowers);

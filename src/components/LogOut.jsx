@@ -1,7 +1,6 @@
 import React from "react";
 import { ExitIcon, PlusIcon } from "@radix-ui/react-icons";
 import { Button } from "../components/ui/button";
-import { useNavigate } from "react-router-dom";
 import { useAppStore } from "../lib/zustand";
 
 export default function LogOut() {
