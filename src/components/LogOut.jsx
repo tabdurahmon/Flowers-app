@@ -1,5 +1,5 @@
 import React from "react";
-import { ExitIcon, PlusIcon } from "@radix-ui/react-icons";
+import { ExitIcon } from "@radix-ui/react-icons";
 import { Button } from "../components/ui/button";
 import { useAppStore } from "../lib/zustand";
 
