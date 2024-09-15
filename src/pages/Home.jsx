@@ -10,7 +10,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "../components/ui/table";
 import { PlusIcon, UpdateIcon } from "@radix-ui/react-icons";
 import { Button } from "../components/ui/button";
 import AddNewItemModal from "../components/AddNewItemModal";
