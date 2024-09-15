@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
+import { Textarea } from "../components/ui/textarea";
+import { Label } from "../components/ui/label";
 import { summaryLimit } from "../lib/my-utils";
 
 export default function Summary() {

@@ -1,7 +1,12 @@
-import { Label } from "@/components/ui/label";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Input } from "@/components/ui/input";
-import { buttonVariants, Button } from "@/components/ui/button";
+import { Label } from "../components/ui/label";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "../components/ui/tabs";
+import { Input } from "../components/ui/input";
+import { buttonVariants, Button } from "../components/ui/button";
 import { PlusCircleIcon } from "lucide-react";
 import { UpdateIcon } from "@radix-ui/react-icons";
 import { useState, useRef } from "react";

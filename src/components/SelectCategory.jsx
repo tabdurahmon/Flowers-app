@@ -1,4 +1,4 @@
-import { Label } from "@/components/ui/label";
+import { Label } from "../components/ui/label";
 import { collectItem } from "../lib/my-utils";
 import { useAppStore } from "../lib/zustand";
 import {
@@ -7,7 +7,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 import { useState } from "react";
 
 export default function SelectCategory() {

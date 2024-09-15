@@ -4,8 +4,8 @@ import * as React from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
 import { useAppStore } from "../lib/zustand";
 
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { cn } from "../lib/utils";
+import { Button } from "../components/ui/button";
 import {
   Command,
   CommandEmpty,
@@ -13,14 +13,14 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command";
+} from "../components/ui/command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "../components/ui/popover";
 import { collectItem } from "../lib/my-utils";
-import { Label } from "@/components/ui/label";
+import { Label } from "../components/ui/label";
 
 export function SelectCountry() {
   const flowers = useAppStore((state) => state.flowers);

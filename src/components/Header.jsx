@@ -1,5 +1,5 @@
-import LogOut from "@/components/LogOut";
-import DarkMode from "@/components/DarkMode";
+import LogOut from "./components/LogOut";
+import DarkMode from "./components/DarkMode";
 
 export default function Header() {
   return (

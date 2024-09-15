@@ -1,13 +1,7 @@
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Input } from "@/components/ui/input";
+import { Select, SelectContent, SelectItem } from "../components/ui/select";
+import { Input } from "../components/ui/input";
 import { periods } from "../lib/my-utils";
-import { Label } from "@/components/ui/label";
+import { Label } from "../components/ui/label";
 
 export default function LifeTime() {
   return (
