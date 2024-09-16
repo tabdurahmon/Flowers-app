@@ -1,6 +1,6 @@
 import React from "react";
 import { ExitIcon } from "@radix-ui/react-icons";
-import { Button } from "../components/ui/button";
+import { Button } from "./components/ui/button";
 import { useAppStore } from "../lib/zustand";
 
 export default function LogOut() {

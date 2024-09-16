@@ -12,7 +12,7 @@ import {
   TableRow,
 } from "../components/ui/table";
 import { PlusIcon, UpdateIcon } from "@radix-ui/react-icons";
-import { Button } from "../components/ui/button";
+import { Button } from "@/components/ui/button";
 import AddNewItemModal from "../components/AddNewItemModal";
 import PaginationDemo from "../components/PaginationDemo";
 
